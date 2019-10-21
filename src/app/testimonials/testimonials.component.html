@@ -1,0 +1,46 @@
+<section id="testimonials" class="section-bg" *ngIf="testimonialsData">
+
+  <div class="container">
+
+    <header class="section-header">
+
+      <h2>{{testimonialsData?.title}}</h2>
+    </header>
+
+    <div class="row">
+      <div class="col-md-8 col-center m-auto">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <div class="carousel-inner">
+            <ng-container *ngFor="let testimon of allTestimonials; index as i">
+              <ng-container *ngIf="i==0; then thenBlock; else elseBlock">
+              </ng-container>
+              <ng-template #thenBlock>
+                <div class="item carousel-item active">
+                  <div class="img-box"><img [src]="testimon?.image" alt=""></div>
+                  <p class="testimonial" [innerHTML]="testimon?.review"></p>
+                  <p class="overview"><b> {{testimon?.name}} </b>, {{testimon?.profession}} </p>
+                </div>
+              </ng-template>
+              <ng-template #elseBlock>
+                <div class="item carousel-item">
+                  <div class="img-box"><img [src]="testimon?.image" alt=""></div>
+                  <p class="testimonial" [innerHTML]="testimon?.review"></p>
+                  <p class="overview"><b> {{testimon?.name}} </b>, {{testimon?.profession}} </p>
+                </div>
+              </ng-template>
+            </ng-container>
+
+          </div>
+          <a class="carousel-control left carousel-control-prev" data-target="#myCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a class="carousel-control right carousel-control-next" data-target="#myCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

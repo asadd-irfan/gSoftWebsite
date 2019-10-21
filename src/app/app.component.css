@@ -1,0 +1,7 @@
+.install_prompt_button {
+  font-weight: bold;
+  color: burlywood;
+}
+span:hover {
+  cursor: pointer;
+}

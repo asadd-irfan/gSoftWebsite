@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["WxhO5"]); }
+
+__d("ProtonCodegenConstants",["ProtonCodegenTypes"],(function(a,b,c,d,e,f){"use strict";a=b("ProtonCodegenTypes").CODEGEN_PLACEMENT_TYPES;c={placement:a.inline};d={placement:a.none};f=new Map([[a.none,"Do not generate"],[a.inline,"Generate as inline function"],[a.component,"Functional component"],[a.file,"Extract as separate file"],[a.placeholder,"Generate placeholder"],[a.childrenOnly,"Include children only"]]);e.exports={DISPLAY_VALUE_BY_CODEGEN_PLACEMENT:f,CODEGEN_PLACEMENT_TYPES:a,DEFAULT_CODEGEN_ITEM_PROPS:c,DEFAULT_CODEGEN_PAGE_PROPS:d}}),null);

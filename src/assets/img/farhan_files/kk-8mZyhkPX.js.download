@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["RMizj"]); }
+
+__d("useStoryClickEventLogger",["CometFeedClickEventsLoggerContext","CometFeedLoggingExtraFieldsContext","CometTrackingCodeContext","CometTrackingNodesContext","React","getAbsoluteUrl"],(function(a,b,c,d,e,f){"use strict";var g=b("React").useCallback,h=b("React").useContext;function a(){var a=h(b("CometFeedClickEventsLoggerContext")),c=h(b("CometTrackingNodesContext")),d=h(b("CometTrackingCodeContext")),e=d.encrypted_tracking[0],f=h(b("CometFeedLoggingExtraFieldsContext"));return g(function(d,g,h,i){h=b("getAbsoluteUrl")(h);a(d,c,e,g,h,f,i)},[a,c,e,f])}e.exports=a}),null);

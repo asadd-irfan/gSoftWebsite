@@ -1,0 +1,22 @@
+
+.main-nav a {
+  display: block;
+  position: relative;
+  color: #413e66;
+  padding: 8px 12px;
+  transition: 0.3s;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main-nav  ul a:hover,
+.main-nav  ul .active > a,
+.main-nav  ul li:hover > a {
+  color: #1bb1dc;
+}
+
+.active {
+  color: #1bb1dc !important; 
+}

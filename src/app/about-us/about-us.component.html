@@ -1,0 +1,38 @@
+<section id="about" *ngIf="aboutUsData">
+
+  <div class="container-fluid">
+
+    <header class="section-header">
+      <h3>{{aboutUsData?.title}}</h3>
+    </header>
+    <section id="why-us">
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="why-us-img">
+            <img [src]="aboutUsData?.image" width="600px" height="500px" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="why-us-content">
+
+
+            <div *ngFor="let technology of ourTechnologies">
+              <div class="features wow bounceInUp clearfix">
+                <i class="{{technology?.icon}}" [style.color]="technology?.iconColor"></i>
+                <h4 [innerHTML]="technology?.title"></h4>
+                <p [innerHTML]="technology?.description"></p>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </div>
+</section>

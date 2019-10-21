@@ -1,0 +1,55 @@
+
+.padding_top{
+padding-top: 55px  !important;
+padding-bottom: 15px  !important;
+}
+.btn-send{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+}
+@media (max-width: 500px) {
+  .margin_left{
+    margin-left: 30px;
+  }
+}
+.follow-us{
+    font-size: 14px;
+    font-weight: bold;
+    color: #413e66;
+    text-transform: uppercase;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 8px;
+
+}
+.text-style{
+  font-size: 22px !important;
+  font-weight: bold;
+  color: #413e66;
+  text-transform: uppercase;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+.bottom{
+  padding-bottom: 20px;
+}
+
+@media (min-width: 900px) {
+  .center{
+    padding-left: 70px;  
+  }
+}
+.icon_size {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #1bb1dc;
+}

@@ -1,0 +1,25 @@
+<section id="services" class="section-bg margin_top">
+  <div class="container">
+
+    <header class="section-header">
+      <h3>{{servicesData?.title}}</h3>
+      <p [innerHTML]="servicesData?.intro"></p>
+    </header>
+
+
+    <div class="row">
+      <div class='col-lg-4 col-md-6' *ngFor="let service of allServices">
+        <div class="wow bounceInUp" data-wow-duration="1.4s">
+          <div class="box">
+            <div> <img [src]="service?.image" alt="image loading problem" width="250px" height="200px"
+                class="img-responsive">
+            </div>
+            <h4 class="title"><a href="#">{{service?.title}}</a></h4>
+            <p class="description" [innerHTML]="service?.description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

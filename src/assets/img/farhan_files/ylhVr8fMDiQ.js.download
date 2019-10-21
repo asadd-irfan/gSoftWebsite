@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["qF7FE"]); }
+
+__d("ProtonCodegenTypes",[],(function(a,b,c,d,e,f){"use strict";a=Object.freeze({none:"none",inline:"inline",component:"component",file:"file",placeholder:"placeholder",childrenOnly:"childrenOnly"});e.exports={CODEGEN_PLACEMENT_TYPES:a}}),null);

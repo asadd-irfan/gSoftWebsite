@@ -28,7 +28,7 @@
     "countup.js-angular2": "^7.3.0",
     "http-server": "^0.11.1",
     "http-server-ssl": "0.0.7",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.15",
     "ng-countup": "^5.2.4",
     "popper": "^1.0.1",
